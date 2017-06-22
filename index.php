@@ -12,15 +12,15 @@ $stmt->bindParam(":asin", $asin);
 $stmt->execute();*/
 
 fInsertToDatabase('B01MAZGLMP', 'Moana', 19.99);
-//fInsertToDatabase('B01LTHOAGM', 'Fantastic Beasts and Where to Find Them', 24.51);
-//fInsertToDatabase('B00N1JQ452', 'Guardians Of The Galaxy', 19.96);
+fInsertToDatabase('B01LTHOAGM', 'Fantastic Beasts and Where to Find Them', 24.51);
+fInsertToDatabase('B00N1JQ452', 'Guardians Of The Galaxy', 19.96);
 //fDeleteFromDatabase('B01MAZGLMP');
 fListFromDatabase();
 
-//fInsertActorsToDatabase( 'Chris', 'Pratt');
-//fInsertActorsToDatabase( 'Zoe', 'Saldana');
-//fInsertActorsToDatabase( 'Joe', 'Gunn');
-//fInsertActorsToDatabase( 'Dwayne', 'Johnson');
+fInsertActorsToDatabase( 'Chris', 'Pratt');
+fInsertActorsToDatabase( 'Zoe', 'Saldana');
+fInsertActorsToDatabase( 'Joe', 'Gunn');
+fInsertActorsToDatabase( 'Dwayne', 'Johnson');
 fInsertActorsToDatabase('Eddie','Redmayne');
 fInsertActorsToDatabase('Katherine', 'Waterston');
 fInsertActorsToDatabase('Emma','Watson');
