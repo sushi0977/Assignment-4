@@ -13,11 +13,11 @@ class DvdTitle
     protected $price;
 
     public function Asin() {
-        return $this -> asin;
+        return $this->asin;
     }
 
     public function Price() {
-        return $this ->price;
+        return $this->price;
     }
 
     public function SetAsin($new_asin)
